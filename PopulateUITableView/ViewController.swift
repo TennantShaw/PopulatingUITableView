@@ -60,8 +60,8 @@ class Task: NSObject, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell()
-        let animalName = weapons[indexPath.row]
-        cell.textLabel?.text = animalName
+        let weaponName = weapons[indexPath.row]
+        cell.textLabel?.text = weaponName
         return cell
     }
 }
